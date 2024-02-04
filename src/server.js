@@ -1,9 +1,9 @@
-var http = require('http');
+ivar http = require('http');
 
 var server = http.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello, Welcome to the sample application developed, tested and deployed using How to integrate Jenkins with GitHub blog");
+    response.end("Assalam o Alaikum, Welcome to the sample application developed, tested and deployed using How to integrate Jenkins with GitHub blog");
 
 });
 
